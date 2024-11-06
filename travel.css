@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400&family=Be+Vietnam+Pro:wght@400;500;700&family=Jost:wght@200;300;500&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@200;300;400;500&family=Quicksand:wght@300;400;500;600;700&family=Rubik:wght@400;600;800&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-weight: bold;
+}
+body{
+    margin: 0 auto;
+
+}
+@media only screen and (max-width:768px){
+    body{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:480px){
+    body{
+        font-size: 12px;
+    }
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.column{
+    width:50%;
+    float:left;
+}
+   /* Navigatioan */
+nav{
+    background-color: rgb(8, 19, 71);
+    display: flex;
+    flex-direction: row;
+    padding: 0.2rem 0.8rem;
+    justify-content: space-between;
+    align-items: center;
+    color: #f4eded;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+img{
+    border-radius: 20px;
+    opacity: 0.9;
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    list-style: none;
+    gap: 6rem;
+    font-size: 10px;
+    color:#fff;
+    text-decoration-color: #fff;
+}
+.button{
+    border: none;
+    font-size: 15px;
+    padding: 11px;
+    border-radius: 5px;
+    background-color: rgb(22, 184, 234);   
+    
+}
+li{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+/* About us  */
+.about{
+    background-image: url('./image/body3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 600px;
+    padding: 4rem 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+
+}
+h1{
+    font-size: 3rem;
+    color: #0d2265;
+
+}
+h2{
+    color: #05093a;
+
+}
+p{
+    color: #020851;
+    font-size: 22px;
+    font-family: Ink Free;
+    text-align: center;
+    font-weight: 50px;
+    font-size: 18px;
+}
+.div-img{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 2.5;
+    justify-content: center;
+    background-color: #22b8cc;
+    padding: 10px;
+    margin: 10px;
+    animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+    
+}
+
+.pic-img{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #22b8cc ;
+    animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {background-color:rgb(19, 191, 230); }
+    25%  {background-color:rgb(0, 174, 255); }
+    50%  {background-color:rgb(30, 233, 255); }
+    75%  {background-color:rgb(19, 191, 230); }
+    100% {background-color:rgb(0, 195, 255); }
+  }
+
+.story{
+    margin: auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #22b8cc;
+
+
+}
+.story-button{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-bottom: 20px;
+
+}
+.our-story{
+    background-color: #fff;
+    border: 1px solid black;
+
+}
+
+button{
+    padding: 15px 50px;
+    border-radius: 100px;
+    border: none;
+    background-color: aquamarine;
+    font-size: 15px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #030732;
+   color: #fff;
+    justify-content: space-between;
+   
+}
+.footer-left{
+    width: 20%;
+    color: #fff;
+    
+   
+}
+.footer-right{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: left;
+    margin-top: 30px;
+    margin-right: 100px;
+    
+}
+.footer-par{
+    font-size: 12px;
+    margin: 0px 0px 5px 5px;
+    color: #fff;
+}
